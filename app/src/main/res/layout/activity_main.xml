@@ -4,48 +4,50 @@
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="@color/Teal100">
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/header"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:textColor="@color/Teal500"
+        android:textStyle="bold"
+        android:id="@+id/textViewHeader"
+        android:padding="32dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        style="@style/ButtonStandard"
         android:text="@string/spotify_streamer"
         android:id="@+id/buttonSpotifyStreamer"
-        android:layout_gravity="center_horizontal" />
+
+        />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ButtonStandard"
         android:text="@string/scores_app"
-        android:id="@+id/buttonScoresApp"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/buttonScoresApp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ButtonStandard"
         android:text="@string/library_app"
-        android:id="@+id/buttonLibraryApp"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/buttonLibraryApp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ButtonStandard"
         android:text="@string/build_it_bigger"
-        android:id="@+id/buttonBuildItBigger"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/buttonBuildItBigger" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ButtonStandard"
         android:text="@string/xyz_reader"
-        android:id="@+id/buttonXyzReader"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/buttonXyzReader" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ButtonCapstone"
         android:text="@string/capstone"
-        android:id="@+id/buttonCapstone"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/buttonCapstone"/>
 
 </LinearLayout>
