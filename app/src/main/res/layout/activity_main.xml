@@ -30,22 +30,22 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/buttonBuildItBigger"
         android:layout_gravity="center_horizontal" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
+        android:text="@string/xyz_reader"
+        android:id="@+id/buttonXyzReader"
         android:layout_gravity="center_horizontal" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
+        android:text="@string/capstone"
+        android:id="@+id/buttonCapstone"
         android:layout_gravity="center_horizontal" />
 
 </LinearLayout>
