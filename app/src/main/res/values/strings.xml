@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppPortfolio</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="spotify_streamer">SPOTIFY STREAMER</string>
+    <string name="scores_app">SCORES APP</string>
+    <string name="library_app">LIBRARY APP</string>
+</resources>
