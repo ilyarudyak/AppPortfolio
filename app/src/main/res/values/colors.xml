@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- colors from http://www.google.com/design/spec/style/color.html#color-color-palette -->
+    <color name="Teal100">#b2dfdb</color>
+    <color name="Teal500">#009688</color>
+    <color name="DeepOrange500">#ff5722</color>
+
+    <!-- other colors-->
+    <color name="White">#fff</color>
+</resources>

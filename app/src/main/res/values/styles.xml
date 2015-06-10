@@ -5,4 +5,26 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="ButtonStandard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">64dp</item>
+        <item name="android:layout_marginRight">64dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:background">@color/Teal500</item>
+    </style>
+
+    <style name="ButtonCapstone">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">64dp</item>
+        <item name="android:layout_marginRight">64dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@color/DeepOrange500</item>
+    </style>
+
 </resources>
